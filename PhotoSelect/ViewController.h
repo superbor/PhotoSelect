@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (nonatomic, strong) UICollectionView *collectionView;
+@property (nonatomic, strong) UIView *faview;
 
-
+@property (nonatomic, strong)  UIImageView *picImgView;
+@property (assign, nonatomic) CGPoint beginpoint;
 @end
 

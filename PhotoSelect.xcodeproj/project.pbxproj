@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F532B95200DFA49005BA318 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F532B92200DFA48005BA318 /* MyCollectionViewCell.m */; };
+		2F532B96200DFA49005BA318 /* DirectionPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F532B94200DFA49005BA318 /* DirectionPanGestureRecognizer.m */; };
+		2F532B98200E0497005BA318 /* pic_url.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F532B97200E0488005BA318 /* pic_url.plist */; };
 		2F8344A1200DC2D800E18299 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8344A0200DC2D800E18299 /* AppDelegate.m */; };
 		2F8344A4200DC2D800E18299 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8344A3200DC2D800E18299 /* ViewController.m */; };
 		2F8344A7200DC2D800E18299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F8344A5200DC2D800E18299 /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		2F8344AF200DC2D800E18299 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8344AE200DC2D800E18299 /* main.m */; };
 		2F8344B9200DC2D800E18299 /* PhotoSelectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8344B8200DC2D800E18299 /* PhotoSelectTests.m */; };
 		2F8344C4200DC2D800E18299 /* PhotoSelectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8344C3200DC2D800E18299 /* PhotoSelectUITests.m */; };
+		49CC70820B4F25CE917C7C1D /* libPods-PhotoSelect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EAC77E87495E55B6ADBDEDC /* libPods-PhotoSelect.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F532B91200DFA47005BA318 /* DirectionPanGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectionPanGestureRecognizer.h; sourceTree = "<group>"; };
+		2F532B92200DFA48005BA318 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		2F532B93200DFA48005BA318 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		2F532B94200DFA49005BA318 /* DirectionPanGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectionPanGestureRecognizer.m; sourceTree = "<group>"; };
+		2F532B97200E0488005BA318 /* pic_url.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = pic_url.plist; sourceTree = "<group>"; };
 		2F83449C200DC2D800E18299 /* PhotoSelect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSelect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F83449F200DC2D800E18299 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2F8344A0200DC2D800E18299 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,9 @@
 		2F8344BF200DC2D800E18299 /* PhotoSelectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSelectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8344C3200DC2D800E18299 /* PhotoSelectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoSelectUITests.m; sourceTree = "<group>"; };
 		2F8344C5200DC2D800E18299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8CE5CF1E6BBE1D9FE46203 /* Pods-PhotoSelect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoSelect.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoSelect/Pods-PhotoSelect.release.xcconfig"; sourceTree = "<group>"; };
+		4EAC77E87495E55B6ADBDEDC /* libPods-PhotoSelect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhotoSelect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		927C684163053E4C040458FF /* Pods-PhotoSelect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoSelect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoSelect/Pods-PhotoSelect.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49CC70820B4F25CE917C7C1D /* libPods-PhotoSelect.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28A324362DA8B393CDD0B89E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				927C684163053E4C040458FF /* Pods-PhotoSelect.debug.xcconfig */,
+				3A8CE5CF1E6BBE1D9FE46203 /* Pods-PhotoSelect.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2F834493200DC2D800E18299 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				2F8344B7200DC2D800E18299 /* PhotoSelectTests */,
 				2F8344C2200DC2D800E18299 /* PhotoSelectUITests */,
 				2F83449D200DC2D800E18299 /* Products */,
+				28A324362DA8B393CDD0B89E /* Pods */,
+				5D142442E73FD7C49BD974C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +125,11 @@
 		2F83449E200DC2D800E18299 /* PhotoSelect */ = {
 			isa = PBXGroup;
 			children = (
+				2F532B97200E0488005BA318 /* pic_url.plist */,
+				2F532B91200DFA47005BA318 /* DirectionPanGestureRecognizer.h */,
+				2F532B94200DFA49005BA318 /* DirectionPanGestureRecognizer.m */,
+				2F532B93200DFA48005BA318 /* MyCollectionViewCell.h */,
+				2F532B92200DFA48005BA318 /* MyCollectionViewCell.m */,
 				2F83449F200DC2D800E18299 /* AppDelegate.h */,
 				2F8344A0200DC2D800E18299 /* AppDelegate.m */,
 				2F8344A2200DC2D800E18299 /* ViewController.h */,
@@ -132,6 +161,14 @@
 			path = PhotoSelectUITests;
 			sourceTree = "<group>";
 		};
+		5D142442E73FD7C49BD974C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EAC77E87495E55B6ADBDEDC /* libPods-PhotoSelect.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F8344C8200DC2D800E18299 /* Build configuration list for PBXNativeTarget "PhotoSelect" */;
 			buildPhases = (
+				8264EF358EADA6364EAE175C /* [CP] Check Pods Manifest.lock */,
 				2F834498200DC2D800E18299 /* Sources */,
 				2F834499200DC2D800E18299 /* Frameworks */,
 				2F83449A200DC2D800E18299 /* Resources */,
+				754488804694987BC1440CFC /* [CP] Embed Pods Frameworks */,
+				56D61B5F19392C541BC925BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F532B98200E0497005BA318 /* pic_url.plist in Resources */,
 				2F8344AC200DC2D800E18299 /* LaunchScreen.storyboard in Resources */,
 				2F8344A9200DC2D800E18299 /* Assets.xcassets in Resources */,
 				2F8344A7200DC2D800E18299 /* Main.storyboard in Resources */,
@@ -260,13 +301,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56D61B5F19392C541BC925BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoSelect/Pods-PhotoSelect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		754488804694987BC1440CFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoSelect/Pods-PhotoSelect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8264EF358EADA6364EAE175C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F834498200DC2D800E18299 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F532B96200DFA49005BA318 /* DirectionPanGestureRecognizer.m in Sources */,
 				2F8344A4200DC2D800E18299 /* ViewController.m in Sources */,
 				2F8344AF200DC2D800E18299 /* main.m in Sources */,
+				2F532B95200DFA49005BA318 /* MyCollectionViewCell.m in Sources */,
 				2F8344A1200DC2D800E18299 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,11 +519,13 @@
 		};
 		2F8344C9200DC2D800E18299 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927C684163053E4C040458FF /* Pods-PhotoSelect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CQ225TY7SQ;
 				INFOPLIST_FILE = PhotoSelect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.china.PhotoSelect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,11 +535,13 @@
 		};
 		2F8344CA200DC2D800E18299 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A8CE5CF1E6BBE1D9FE46203 /* Pods-PhotoSelect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CQ225TY7SQ;
 				INFOPLIST_FILE = PhotoSelect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.china.PhotoSelect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
